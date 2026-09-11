@@ -45,12 +45,26 @@ body{
 }
 .principal{
     display: flex;
+    min-height: 500px;
+
 }
-.pricipal-imagen{
+.principal-izquierda{
+    display: flex;
+    flex-direction: column;
     flex: 1;
+}
+.principal-imagen{
+    flex: 1;
+    min-height: 180px;
+    background-image: url(./images/hero.jpg);
+    background-size: cover;
+    background-position: center;
+
 }
 .principal-contenido{
     flex: 1;
 }
+
+
 
 
