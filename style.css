@@ -5,3 +5,38 @@ body{
     margin: 0;
     padding: 0;
 }
+.cabecera {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 0 24px;
+    background-color: #292524;
+}
+.navegacion {
+    display: flex;
+    gap: 24px;
+}
+
+.enlace-navegacion {
+    text-decoration: none;
+    color: #d6d3d1;
+}
+.logo{
+    text-decoration: none;
+    color: #f97316;
+    font-size: 24px;
+    font-weight: bold;
+}
+.boton-hablemos{
+    text-decoration: none;
+    color: #f97316;
+    background-color: #292524;
+    border-radius: 15px;
+    border: 2px solid #f97316;
+    padding: 7px 18px;
+    font-weight: bold;
+   
+}
+
+
