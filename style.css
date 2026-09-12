@@ -42,6 +42,7 @@ body{
     border: 2px solid #f97316;
     padding: 7px 18px;
     font-weight: bold;
+    margin-right: 7px;
    
 }
 .principal{
@@ -56,15 +57,18 @@ body{
 .principal-izquierda{
     display: flex;
     flex-direction: column;
-    flex: 1;
+    margin-left: 100px;
 }
 .principal-imagen{
-    flex: 1;
+    display: flex;
     min-height: 250px;
     background-image: url(./images/hero.jpg);
     background-size: cover;
     background-position: center;
-    min-width: 570px;
+    min-width: 600px;
+    border: 5px solid transparent; border-radius: 10px;
+
+
 
 }
 .principal-contenido{
@@ -87,18 +91,23 @@ body{
     max-width: 520px;
     margin: 0 0 18px 0;
 }
-.servicios{
+.servicios {
     display: flex;
-    flex: 1;
     flex-direction: column;
     gap: 8px;
-    
+    margin-left: 35px;
+    margin-top: 35px;
+    width: 420px;
 }
-.servicio{
+.servicio {
     display: flex;
-    flex: 1;
-    padding: 14px; 
-    
+    align-items: center;
+    min-height: 100px;
+    padding: 8px;
+    gap: 10px;
+    background-color: #292524;
+    border-radius: 6px;
+    margin-top: 3px;
 }
 .boton-trabajos {
     display: inline-block;
@@ -110,7 +119,49 @@ body{
     font-size: 13px;
     font-weight: bold;
 }
+.servicio-imagen {
+    width: 70px;
+    min-width: 70px;
+    height: 55px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 4px;
+}
+.servicio-contenido{
+    margin-left: 2px;
 
+}
+.servicio-contenido h2{
+    font-size: 17px;
+    color: #f97316; 
+    margin-top: 1px;
+}
+.servicio-contenido p {
+    display: flex;
+    color: #d6d3d1;
+    font-size: 11px;
+    line-height: 1.3;
+}
+.imagen-branding {
+    background-image: url("./images/serv_1.jpg");
+    min-width:110px;
+    height: 80px;
+    margin-left: 2px;
+}
+
+.imagen-arte {
+    background-image: url("./images/serv_2.jpg");
+    min-width:110px;
+    height: 80px;
+    margin-left: 2px;
+}
+
+.imagen-fotografia {
+    background-image: url("./images/serv_3.jpg");
+    min-width:110px;
+    height: 80px;
+    margin-left: 2px;
+}
 
 
 
